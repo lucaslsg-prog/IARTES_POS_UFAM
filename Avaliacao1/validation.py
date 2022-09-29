@@ -42,11 +42,11 @@ def check_cpf(cpf):
             cpf_valido = False
             print("CPF invalido")
 
-    if '.' in cpf:
+    if '.' not in cpf:
         cpf_valido = False
         print("CPF invalido")
 
-    elif '-' in cpf:
+    elif '-' not in cpf:
         cpf_valido = False
         print("CPF invalido")
 

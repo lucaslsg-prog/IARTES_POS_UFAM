@@ -48,7 +48,7 @@ class TestCPF(object):
         assert validation.check_cpf(cpf) == False
 
     def test_cpf_primeiro_digito(self):
-        cpf = '529.982.247-35'
+        cpf = '529.982.247-95'
         assert validation.check_cpf(cpf) == False
     
     def test_cpf_segundo_digito(self):
